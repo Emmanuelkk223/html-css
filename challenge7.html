@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .search-bar {
+            font-size: 20px;
+            border: 0.5px strong black;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: white;
+            color: rgb(100, 100, 100);
+        }
+        .email-label {
+            color: rgb(100, 100, 100);
+        }
+        .input-label {
+            padding-left: 30px;
+        }
+        .agree-btn {
+            background-color: blue;
+            color: #fff;
+            border: none;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 70px;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            transition: all 0.3s ease-in-out;
+        }
+        .agree-btn:hover {
+            background-color: skyblue;
+            color: #000;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+        .agree-btn:active {
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            transform: translateY(4px);
+        }
+        .text {
+            color: rgb(100, 100, 100);
+        }
+    </style>
+</head>
+<body>
+    <input class="search-bar" type="text-box" placeholder="Search">
+    <p>
+        <label class="emai-label" for="emmail" style="color: rgb(100, 100, 100);">Email</label>
+        <br>
+        <input class="input-label" type="email" name="email" id="email">
+    </p>
+    <p class="text">
+        By clicking Agree & Join, you agree to the Privacy Policy
+    </p>
+    <button class="agree-btn">Agree & Join</button>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uber</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       .location {
+        display: block;
+        background-color: rgb(240, 240, 240);
+        border: none;
+        margin-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        width: 400px;
+       }
+       .destination {
+        display: block;
+        background-color: rgb(240, 240, 240);
+        border: none;
+        margin-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        width: 400px;
+       }
+       .text{
+        font-size: 20px;
+        font-weight: bold;
+       }
+       .uber {
+        background-color: #000;
+        color: white;
+        border: none;
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: opacity 0.5s;
+       }
+       .uber:hover {
+        opacity: 0.7;
+       }
+       .uber:active {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        transform: translateY(1px);
+       }
+       .schedule {
+        background-color: rgb(224, 218, 218);
+        color: #000;
+        border: none;
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        border-radius: 2px;
+       }
+       .schedule:active {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        transform: translateY(1px);
+       }
+       
+    </style>
+</head>
+<body>
+    <p class="text">Request a ride now</p>
+    <p>
+        <input class="location" type="address" placeholder="Enter pickup location">
+        <input class="destination" type="address" placeholder="Enter destination">
+    </p>
+    <p>
+        <button class="uber">Request now</button>
+        <button class="schedule">Schedule for later</button>
+    </p>
+</body>
+</html>
